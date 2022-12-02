@@ -1,0 +1,20 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/ishika/Desktop/editedchessgame-main/final_project -B /Users/ishika/Desktop/editedchessgame-main/final_project/cmake-build-debug
+-- The CXX compiler identification is AppleClang 13.0.0.13000029
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:7 (include):
+  include could not find requested file:
+
+    .cs211/cmake/CMakeLists.txt
+
+
+CMake Error at CMakeLists.txt:14 (add_program):
+  Unknown CMake command "add_program".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/ishika/Desktop/editedchessgame-main/final_project/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/ishika/Desktop/editedchessgame-main/final_project/cmake-build-debug/CMakeFiles/CMakeError.log".
